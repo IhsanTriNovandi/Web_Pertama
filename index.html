@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HAPPY DESSERT</title>
+
+        <link rel="stylesheet" href="styles/styles.css"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+          rel="stylesheet"
+        >
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+        
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        >
+
+        <style>
+            body{
+                background-image: url('image/Brown Modern Ramadhan Food Promo Story.jpg');
+                background-size: cover;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <!---isi konten-->
+        <header class="navbar-container">
+            <!--isi judul web-->
+            <div class="logo">
+                <img 
+                src="image/IMG-20230829-WA0002.jpg" 
+                alt="logo produk"
+                width="100px" 
+                class="crop"
+                />
+            </div>
+
+            <div class="text">
+                <h1>Happy Dessert</h1>
+            </div>
+
+            <nav class="nav-list">
+                <ul>
+                    <li><a href="#Beranda">Beranda</a></li>
+                    <li><a href="#Produk">Produk</a></li>
+                    <li><a href="#pesan">Pesan</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="Beranda">
+            <!--isi konten artikel-->
+            <div class="posisi">
+                <article class="pertama">
+                    <div class="menu">
+                        <img 
+                        src="image/IMG-20230910-WA0001.jpg"
+                        alt="daftar menu"
+                        width="280px" class="crop"
+                        />
+                    </div>
+    
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radip-btn" id="radio1">
+                            <input type="radio" name="radip-btn" id="radio2">
+                            <input type="radio" name="radip-btn" id="radio3">
+                            <input type="radio" name="radip-btn" id="radio4">
+    
+                            <div class="slide first">
+                                <img src="image/IMG_20230903_105202.JPG"
+                                alt=""
+                                width="800px" height="500px" class="crop"
+                                >
+                            </div>
+    
+                            <div class="slide">
+                                <img src="image/IMG-20230902-WA0004.jpg" 
+                                alt=""
+                                width="800px" height="500px" class="crop"
+                                >
+                            </div>
+    
+                            <div class="slide">
+                                <img src="image/IMG-20230902-WA0139.jpg" 
+                                alt=""
+                                width="800px" height="500px" class="crop"
+                                >
+                            </div>
+    
+                            <div class="slide">
+                                <img src="image/IMG-20230902-WA0141.jpg" 
+                                alt=""
+                                width="800px" height="500px" class="crop"
+                                >
+                            </div>
+    
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+                        </div>
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                            <label for="radio3" class="manual-btn"></label>
+                            <label for="radio4" class="manual-btn"></label>
+                        </div>
+                    </div>
+    
+                    <script type="text/javascript">
+                    var counter = 1;
+                    setInterval(function(){
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++;
+                        if(counter > 4){
+                            counter = 1;
+                        }
+                    }, 5000);
+    
+                    </script>
+                </article>
+    
+                <article id="Produk">
+                    <div class="judul">
+                        <h1>Bread Pops</h1>
+                    </div>
+    
+                    <div class="produk">
+                        <div class="foto1">
+                            <img 
+                            src="image/IMG_20230903_105202.JPG"
+                            width="400px" class="crop"
+                            >
+                        </div>
+    
+                        <div class="foto2">
+                            <img 
+                            src="image/IMG-20230902-WA0004.jpg" 
+                            alt="" width="400px" class="crop"
+                            >
+                        </div>
+                    </div>
+    
+                    <div class="penjelasan">
+                        <p>
+                            Apa sih Bread Pops itu? Bread pops adalah sebuah makanan yang mirip dengan donat walaupun namanya bread pops tetapi makanan ini lebih mirip dengan donat di bandingkan dengan roti karena dalam komposisi bahan bread pops ini sama dengan bahan pembuatan donat.
+                        </p>
+                    </div>
+    
+                    <div class="promosi">
+                        <div class="slogan1">
+                            <h1>Kreasikan Rasa dan Toping Pilihanmu</h1>
+                        </div>
+    
+                        <div class="slogan2">
+                            <h1>Hanya dengan <a>12k!</a> kamu bebas memilih rasa dan toping sesukamu</h1>
+                        </div>
+                    </div>
+                </article>
+
+                <section id="pesan">
+                    <h1 class="judul2">PESAN</h1>
+                    <div class="container">
+                        <div class="card-container">
+                            <div class="order">
+                                <div class="order-container">
+                                    <form action="">
+                                        <input type="text" placeholder="Nama">
+                                        <input type="text" placeholder="Alamat Tujuan" autocomplete="off">
+                                        <input type="phone" placeholder="Telepone" autocomplete="off">
+                                        <textarea rows="10" placeholder="Pesan"></textarea>                                    
+                                    </form>
+                                    <button class="kontak-kirim">Kirim</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <aside>
+                <!--isi konten samping-->
+                <div class="social-media">
+                    <ul>
+                      <li><a href="https://www.instagram.com/happydessertt.id/"><i class="fab fa-instagram"></i></a></li>
+                      <img src="image/IMG-20230829-WA0002.jpg">
+                      <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+                    </ul>
+                  </div>
+            </aside>
+
+        </main>        
+        <footer>
+            <!--isi konten penutup-->
+            <p>Design By Ihsan T.N, 2024</p>
+        </footer>
+
+    </body>
+</html>
